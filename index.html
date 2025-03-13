@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    
+</head>
+
+<body>
+    <section class="mt-5 mx-24">
+        <section>
+            <div class="bg-white flex justify-between  ">
+                <div class="flex gap-3 justify-center items-center">
+                    <img src="./assets/logo.png" alt="" srcset="">
+                    <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
+                </div>
+               <div class="flex gap-3">
+                <div>
+                    <button class="btn">
+                        <img src="./assets/checkbox.png" alt="" srcset="">
+                        <span class="font-bold text-3xl">23</span>
+                    </button>
+    
+                </div>
+                <div>
+                    <img src="./assets/theme-btn.png" alt="" srcset="">
+                </div>
+               </div>
+            </div>
+        </section>
+
+        <section class="border">
+            <div class="flex gap-5">
+                <div class="border ">
+                   <div>
+                    <div class="task-assigned grid grid-cols-4 gap-4 mt-10 ">
+                        <div class="border p-9 flex gap-3 bg-gray-200 rounded-md">
+                            <div class="mx-2">
+                                <button><img src="./assets/checkbox.png" alt="" srcset=""></button>
+                               
+                            </div>
+                            <div>
+                                <h1 class="font-bold">Task Assigned</h1>
+                                <h2>6</h2>
+                            </div>
+                        </div>
+                        <!-- discover new today -->
+                        <div id="discovery-page" class="cursor-pointer border col-span-2 p-9 flex justify-between bg-gradient-to-b from-[#3752FD] to-[#FFFFFF] rounded-md ">
+                            <div>
+                                <img src="./assets/board.png" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h1 class="text-3xl">Discover something new Today</h1>
+                            </div>
+                        </div>
+                        <div class="border p-9 flex gap-3 bg-gray-200 rounded-md">
+                            <div class="mx-2">
+                                <img src="./assets/calender.png" alt="" srcset="">
+                               
+                            </div>
+                            <div>
+                                <h1 class="font-bold">Wed </h1>
+                                <h2>,Jul 28 2025 </h2>
+                            </div>
+                        </div>
+                   </div>
+                        
+                       <div class="mt-5 grid grid-cols-3 gap-3 gap-y-5">
+                             <!-- grid-1 -->
+                             <div class="card bg-[#F4F7FF] w-96 shadow-sm">
+                               
+                                <div class="card-body">
+                                    <h1 class="border w-24 p-2 bg-white rounded-md">ShopEase</h1>
+                               <h2 class="font-bold text-3xl">Fix Mobile Button Issue </h2>
+                                  <p class="border  p-2 bg-white rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly</p>
+                                  <div class="card-actions justify-between">
+                                    <div>
+                                        <h1>Deadline</h1>
+                                        <h1 class="font-bold">21 March 2025</h1>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary bg-[#3752FD] w-24 text-white">Completed</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- grid-2 -->
+                            <div class="card bg-[#F4F7FF] w-96 shadow-sm"> 
+                               
+                                <div class="card-body">
+                                    <h1 class="border w-24 p-2 bg-white rounded-md">ColoudSync</h1>
+                               <h2 class="font-bold text-3xl">Add Dark ModeIssue </h2>
+                                  <p class="border  p-2 bg-white rounded-md">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p>
+                                  <div class="card-actions justify-between">
+                                    <div>
+                                        <h1>Deadline</h1>
+                                        <h1 class="font-bold">21 March 2025</h1>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary bg-[#3752FD] w-24 text-white">Completed</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- grid-3 -->
+                            <div class="card bg-[#F4F7FF] w-96 shadow-sm"> 
+                               
+                                <div class="card-body">
+                                    <h1 class="border w-24 p-2 bg-white rounded-md">SwiftPay</h1>
+                               <h2 class="font-bold text-3xl"> Optimize  Home page </h2>
+                                  <p class="border  p-2 bg-white rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly</p>
+                                  <div class="card-actions justify-between">
+                                    <div>
+                                        <h1>Deadline</h1>
+                                        <h1 class="font-bold">21 March 2025</h1>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary bg-[#3752FD] w-24 text-white">Completed</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- grid-4 -->
+                            <div class="card bg-[#F4F7FF] w-96 shadow-sm">   
+                               
+                                <div class="card-body">
+                                    <h1 class="border w-24 p-2 bg-white rounded-md">Meta</h1>
+                               <h2 class="font-bold text-3xl">Add new emoji 🤲</h2>
+                                  <p class="border  p-2 bg-white rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly</p>
+                                  <div class="card-actions justify-between">
+                                    <div>
+                                        <h1>Deadline</h1>
+                                        <h1 class="font-bold">21 March 2025</h1>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary bg-[#3752FD] w-24 text-white">Completed</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- grid-5 -->
+                            <div class="card bg-[#F4F7FF] w-96 shadow-sm">  
+                               
+                                <div class="card-body">
+                                    <h1 class="border w-24 p-2 bg-white rounded-md">Google LLC</h1>
+                               <h2 class="font-bold text-3xl">Integrate OpenAI API </h2>
+                                  <p class="border  p-2 bg-white rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly</p>
+                                  <div class="card-actions justify-between">
+                                    <div>
+                                        <h1>Deadline</h1>
+                                        <h1 class="font-bold">21 March 2025</h1>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary bg-[#3752FD] w-24 text-white">Completed</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <!-- grid-6 -->
+                            <div class="card bg-[#F4F7FF] w-96 shadow-sm">
+                               
+                                <div class="card-body">
+                                    <h1 class="border w-24 p-2 bg-white rounded-md">Glassdoar</h1>
+                               <h2 class="font-bold text-3xl">Improve Job searching </h2>
+                                  <p class="border  p-2 bg-white rounded-md">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                                    and ensure onClick works properly</p>
+                                  <div class="card-actions justify-between">
+                                    <div>
+                                        <h1>Deadline</h1>
+                                        <h1 class="font-bold">21 March 2025</h1>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary bg-[#3752FD] w-24 text-white">Completed</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        
+                       </div>
+                       
+                    </div>
+                    
+                </div>
+                <div class="  text-center border min-w-64">
+                    <div class="flex justify-center my-3 gap-3">
+                        <div >
+                            <img src="./assets/activity.png" alt="" srcset="">
+                        </div>
+                        <div><h1 class="font-bold text-base">activity log</h1></div>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary bg-[#3752FD] p-4 text-white">Clear history</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="./js/button_disabled.js"></script>
+</body>
+
+</html>
