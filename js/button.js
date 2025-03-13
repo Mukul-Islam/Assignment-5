@@ -16,6 +16,7 @@ document.getElementById('grid-one-btn')
         taskAssigned.innerText = sub; 
         const sum = convertTwentyThree + 1; 
         twentyThree.innerText = sum; 
+        alert('Board alert successfully');
     } else {
         console.log('false');
     }
