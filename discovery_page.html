@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <h1>this is mukul</h1>
+    <section class="mt-5 mx-24">
+        <div class=" flex justify-between  ">
+            <div class="flex gap-3 justify-center items-center">
+                <img src="./assets/logo.png" alt="" srcset="">
+                <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div>
+                <button id="back-btn" class="btn btn-secondary bg-blue-500 px-5 text-white rounded-lg">Back to
+                    desk</button>
+            </div>
+        </div>
+
+        <script>
+            document.getElementById('back-btn')
+                .addEventListener('click', function () {
+                    window.location.href = './index.html';
+                })
+        </script>
+    </section>
+    <script src="./js/button_disabled.js"></script>
 </body>
+
 </html>
