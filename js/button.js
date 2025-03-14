@@ -21,7 +21,7 @@ const btncli = document.getElementById('grid-one-btn')
             const activityLog = document.getElementById('activity-log');
             const newL = document.createElement('p');
             newL.classList.add('activit');
-            newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+            newL.innerText = 'You have Complete The Task Fix Mobile Button Issue at 12:48:15 PM';
             activityLog.appendChild(newL);
         } else {
             console.log('false');
@@ -52,7 +52,7 @@ document.getElementById('grid-two-btn')
             const activityLog = document.getElementById('activity-log');
             const newL = document.createElement('p');
             newL.classList.add('activit');
-            newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+            newL.innerText = 'You have Complete The Task Add Dark ModeIssue at 12:48:15 PM';
             activityLog.appendChild(newL);
 
         } else {
@@ -86,7 +86,7 @@ document.getElementById('grid-three-btn')
             const activityLog = document.getElementById('activity-log');
             const newL = document.createElement('p');
             newL.classList.add('activit');
-            newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+            newL.innerText = 'You have Complete The Task Optimize Home page at 12:48:15 PM';
             activityLog.appendChild(newL);
 
 
@@ -124,7 +124,7 @@ document.getElementById('grid-four-btn')
             const activityLog = document.getElementById('activity-log');
             const newL = document.createElement('p');
             newL.classList.add('activit');
-            newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+            newL.innerText = 'You have Complete The Task Add new emoji 🤲 at 12:48:15 PM';
             activityLog.appendChild(newL);
 
         } else {
@@ -161,7 +161,7 @@ document.getElementById('grid-five-btn')
             const activityLog = document.getElementById('activity-log');
             const newL = document.createElement('p');
             newL.classList.add('activit');
-            newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+            newL.innerText = 'You have Complete The Task Integrate OpenAI API at 12:48:15 PM';
             activityLog.appendChild(newL);
 
         } else {
@@ -197,7 +197,7 @@ document.getElementById('grid-six-btn')
             const activityLog = document.getElementById('activity-log');
             const newL = document.createElement('p');
             newL.classList.add('activit');
-            newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+            newL.innerText = 'You have Complete The Task Improve Job searching at 12:48:15 PM';
             activityLog.appendChild(newL);
 
 
