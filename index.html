@@ -9,6 +9,17 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     
 </head>
+<style>
+    .activit{
+        border: solid 2px rgb(209, 198, 198);
+        padding: 4px;
+        background-color: rgb(219, 207, 207);
+        margin-top: 5px;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+</style>
 
 <body>
     <section class="mt-5 mx-24">
@@ -189,15 +200,15 @@
                     </div>
                     
                 </div>
-                <div class="  text-center border min-w-64">
+                <div id="activity-log" class=" activity text-center border min-w-64">
                     <div class="flex justify-center my-3 gap-3">
                         <div >
                             <img src="./assets/activity.png" alt="" srcset="">
                         </div>
-                        <div><h1 class="font-bold text-base">activity log</h1></div>
+                        <div><h1  class="font-bold text-base">activity log</h1></div>
                     </div>
                     <div>
-                        <button class="btn btn-primary bg-[#3752FD] p-4 text-white">Clear history</button>
+                        <button id="clear-history" class="btn btn-primary bg-[#3752FD] p-4 text-white">Clear history</button>
                     </div>
                 </div>
             </div>
@@ -205,6 +216,8 @@
     </section>
     <script src="./js/button_disabled.js"></script>
     <script src="./js/button.js"></script>
+    <script src="./js/clear.js"></script>
+    <script src="./js/activity_log.js"></script>
 </body>
 
 </html>

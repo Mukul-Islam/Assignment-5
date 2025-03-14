@@ -1,4 +1,5 @@
-document.getElementById('grid-one-btn')
+
+const btncli = document.getElementById('grid-one-btn')
 .addEventListener('click', function(){
     const btnClicked = document.getElementById('grid-one-btn');
     btnClicked.disabled = true;
@@ -16,7 +17,12 @@ document.getElementById('grid-one-btn')
         taskAssigned.innerText = sub; 
         const sum = convertTwentyThree + 1; 
         twentyThree.innerText = sum; 
-        alert('Board alert successfully');
+        // alert('Board alert successfully');
+        const activityLog =  document.getElementById('activity-log');
+        const newL = document.createElement('p');
+        newL.classList.add('activit');
+        newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+        activityLog.appendChild(newL);
     } else {
         console.log('false');
     }
@@ -42,6 +48,13 @@ document.getElementById('grid-two-btn')
         taskAssigned2.innerText = sub; 
         const sum = convertTwentyThree2 + 1; 
             twentyThree2.innerText = sum; 
+            alert('Board alert successfully');
+        const activityLog =  document.getElementById('activity-log');
+        const newL = document.createElement('p');
+        newL.classList.add('activit');
+        newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+        activityLog.appendChild(newL);
+
     } else {
         console.log('false');
     }
@@ -69,6 +82,14 @@ document.getElementById('grid-three-btn')
         
         const sum = convertTwentyThree3 + 1; 
             twentyThree3.innerText = sum; 
+            alert('Board alert successfully');
+            const activityLog =  document.getElementById('activity-log');
+            const newL = document.createElement('p');
+            newL.classList.add('activit');
+            newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+            activityLog.appendChild(newL);
+    
+            
     } else {
         console.log('false');
     }
@@ -98,6 +119,14 @@ document.getElementById('grid-four-btn')
       
         const sum = convertTwentyThree4 + 1; 
             twentyThree4.innerText = sum; 
+
+            alert('Board alert successfully');
+        const activityLog =  document.getElementById('activity-log');
+        const newL = document.createElement('p');
+        newL.classList.add('activit');
+        newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+        activityLog.appendChild(newL);
+
     } else {
         console.log('false');
     }
@@ -127,6 +156,14 @@ document.getElementById('grid-five-btn')
      
         const sum = convertTwentyThree5 + 1; 
             twentyThree5.innerText = sum; 
+
+            alert('Board alert successfully');
+        const activityLog =  document.getElementById('activity-log');
+        const newL = document.createElement('p');
+        newL.classList.add('activit');
+        newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+        activityLog.appendChild(newL);
+
     } else {
         console.log('false');
     }
@@ -155,6 +192,14 @@ document.getElementById('grid-six-btn')
 
         const sum = convertTwentyThree + 1; 
         twentyThree.innerText = sum; 
+
+        alert('Board alert successfully');
+        const activityLog =  document.getElementById('activity-log');
+        const newL = document.createElement('p');
+        newL.classList.add('activit');
+        newL.innerText = 'You have Complete The Task Add Dark Mode at 12:48:15 PM';
+        activityLog.appendChild(newL);
+
 
     } else {
         console.log('false');
