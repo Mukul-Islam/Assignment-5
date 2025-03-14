@@ -9,9 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-    <section class="mt-5 mx-24">
-        <div class=" flex justify-between  ">
+<body class="bg-[#F4F7FF]">
+    <section class="mt-5 mx-24  border ">
+        <div class=" flex justify-between items-center bg-white shadow-2xl p-2">
             <div class="flex gap-3 justify-center items-center">
                 <img src="./assets/logo.png" alt="" srcset="">
                 <h1 class="text-3xl">Dev<span class="font-bold">Board</span></h1>
@@ -21,15 +21,48 @@
                     desk</button>
             </div>
         </div>
+        <div>
+            <h1 class="text-center font-bold text-3xl m-5">Blogs</h1>
+            <div class="bg-white shadow-2xl p-2">
+                <h1 class="text-2xl font-bold">Question-1: What are the different ways to select an element in the DOM?</h1>
+                <hr style="margin-top: 40px; border: 2px dashed  rgb(182, 180, 180);">
+                <h1 class="text-2xl">There are several methods in JavaScript to access elements in the DOM. These include:</h1>
 
-        <script>
-            document.getElementById('back-btn')
-                .addEventListener('click', function () {
-                    window.location.href = './index.html';
-                })
-        </script>
+                    <h1 class="text-2xl">getElementById('id') – Selects a single element by its ID.</h1> 
+                     <h1 class="text-2xl">getElementsByClassName('class') – Selects all elements with a specific class name.</h1>
+                     <h1 class="text-2xl">querySelector('selector') – Selects the first matching element using a CSS selector.</h1>
+                    <h1 class="text-2xl"> querySelectorAll('selector') – Selects all matching elements using a CSS selector.</h1>
+            </div>
+
+
+            <div class="bg-white shadow-2xl p-2 mt-5">
+                <h1 class="text-2xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+                <hr style="margin-top: 40px; border: 2px dashed  rgb(182, 180, 180);">
+                <h1>innerHTML:which is can write in html file </h1>
+                <h1>innerText: innerText that can be changed the value if you wanted to change and able to keep the value set .</h1>
+                <h1> Retrieves or sets all text, including hidden content, but does not interpret HTML.</h1>
+            </div>
+        </div>
+        
+            <div class="bg-white shadow-2xl p-2 mt-5">
+                <h1 class="text-2xl font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
+                <hr style="margin-top: 40px; border: 2px dashed  rgb(182, 180, 180);">
+                <h1>innerHTML:which is can write in html file </h1>
+                <h1>innerText: innerText that can be changed the value if you wanted to change and able to keep the value set .</h1>
+                <h1> Retrieves or sets all text, including hidden content, but does not interpret HTML.</h1>
+            </div>
+        </div>
+
+      
     </section>
-    <script src="./js/button_disabled.js"></script>
+
+    <script>
+        document.getElementById('back-btn')
+            .addEventListener('click', function () {
+                window.location.href = './index.html';
+            })
+    </script>
+    
 </body>
 
 </html>
