@@ -1,5 +1,6 @@
 
-const btncli = document.getElementById('grid-one-btn')
+
+const gridOne = document.getElementById('grid-one-btn')
     .addEventListener('click', function () {
         const btnClicked = document.getElementById('grid-one-btn');
         btnClicked.disabled = true;
@@ -17,7 +18,7 @@ const btncli = document.getElementById('grid-one-btn')
             taskAssigned.innerText = sub;
             const sum = convertTwentyThree + 1;
             twentyThree.innerText = sum;
-            // alert('Board alert successfully');
+            alert('Board alert successfully');
             const activityLog = document.getElementById('activity-log');
             const newL = document.createElement('p');
             newL.classList.add('activit');
@@ -28,7 +29,7 @@ const btncli = document.getElementById('grid-one-btn')
         }
     });
 
-document.getElementById('grid-two-btn')
+    const gridTwo = document.getElementById('grid-two-btn')
     .addEventListener('click', function () {
         // const taskAssigned = document.getElementById('task-assigned');
         const btnClicked2 = document.getElementById('grid-two-btn');
@@ -60,7 +61,7 @@ document.getElementById('grid-two-btn')
         }
 
     })
-document.getElementById('grid-three-btn')
+    const gridThree = document.getElementById('grid-three-btn')
     .addEventListener('click', function () {
         // const taskAssigned = document.getElementById('task-assigned');
         const btnClicked3 = document.getElementById('grid-three-btn');
@@ -95,7 +96,7 @@ document.getElementById('grid-three-btn')
         }
 
     })
-document.getElementById('grid-four-btn')
+    const gridFour= document.getElementById('grid-four-btn')
     .addEventListener('click', function () {
         // const taskAssigned = document.getElementById('task-assigned');
         const btnClicked4 = document.getElementById('grid-four-btn');
@@ -132,7 +133,7 @@ document.getElementById('grid-four-btn')
         }
 
     })
-document.getElementById('grid-five-btn')
+    const gridFive = document.getElementById('grid-five-btn')
     .addEventListener('click', function () {
         // const taskAssigned = document.getElementById('task-assigned');
         const btnClicked5 = document.getElementById('grid-five-btn');
@@ -169,7 +170,7 @@ document.getElementById('grid-five-btn')
         }
 
     })
-document.getElementById('grid-six-btn')
+const gridSix = document.getElementById('grid-six-btn')
     .addEventListener('click', function () {
         // const taskAssigned = document.getElementById('task-assigned');
         const btnClicked6 = document.getElementById('grid-six-btn');
